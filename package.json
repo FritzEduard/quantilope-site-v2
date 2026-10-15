@@ -1,0 +1,10 @@
+{
+  "name": "quantilope-site-v2",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "description": "Site de vente de Solutions Quantilope (statique, bilingue FR/EN)",
+  "scripts": {
+    "build": "node build.mjs"
+  }
+}

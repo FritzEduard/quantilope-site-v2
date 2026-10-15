@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Solutions Quantilope</title>
+  <meta name="color-scheme" content="light">
+  <link rel="icon" type="image/png" href="assets/img/favicon.png">
+  <noscript><meta http-equiv="refresh" content="0;url=fr/index.html"></noscript>
+  <script>
+    (function () {
+      var lang = null
+      try { lang = localStorage.getItem('sq_lang') } catch (e) {}
+      if (lang !== 'fr' && lang !== 'en') lang = /^en/i.test(navigator.language || '') ? 'en' : 'fr'
+      location.replace(lang + '/index.html')
+    })()
+  </script>
+</head>
+<body style="font-family:system-ui,sans-serif;background:#fff;color:#120d1a;padding:2rem">
+  <p><a href="fr/index.html">Français</a> · <a href="en/index.html">English</a></p>
+</body>
+</html>
